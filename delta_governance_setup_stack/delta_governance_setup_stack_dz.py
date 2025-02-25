@@ -126,7 +126,7 @@ class DataZone(Stack):
             designation="PROJECT_OWNER",
             domain_identifier=dz_domain_01.attr_id,
             member=datazone.CfnProjectMembership.MemberProperty(
-                user_identifier="arn:aws:iam::474532148129:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_AWSAdministratorAccess_3fbfb10930a867f6"
+                user_identifier="arn:aws:iam::211125447900:user/Sivark"
                 # "arn:aws:iam::474532148129:user/syed-touqeer"
             ),
             project_identifier=domain_01_project_01.attr_id
